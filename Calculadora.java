@@ -24,4 +24,12 @@ public class Calculadora{
         this.numeroB = numeroB;
         return Math.pow (numeroA, numeroB);
     }
+
+    public double raizQuadrada(double numeroA){
+        return Math.sqrt (numeroA)
+    }
+
+    public double piso(double numeroA){
+        return Math.floor (numeroA)
+    }
 }
